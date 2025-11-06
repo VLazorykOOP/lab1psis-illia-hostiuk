@@ -17,6 +17,7 @@ export default function Header() {
 
                 <nav className="flex gap-1">
                     <NavLink to="/" className={linkClass} end>Головна</NavLink>
+                    <NavLink to="/users" className={linkClass}>Користувачі</NavLink>
                     <NavLink to="/about" className={linkClass}>Про проект</NavLink>
                     <NavLink to="/contact" className={linkClass}>Контакти</NavLink>
                 </nav>
